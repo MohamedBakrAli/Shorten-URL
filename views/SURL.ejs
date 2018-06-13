@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <title>Short URL</title>
+    <script src="/javaScript/SURL.js"></script>
+  </head>
+  <body>
+    <div id = "generate-surl">
+      <form method="post" action="/SURL">
+        <input type="text" name="URL" placeholder="Add the URl ..." required/>
+        <button type="submit" >Short URL</button>
+      </form>
+    </div>
+    <h1 ><%= url %></h1>
+  </body>
+</html>
